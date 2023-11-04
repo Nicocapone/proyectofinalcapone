@@ -1,0 +1,19 @@
+h1 {
+  background-color: aqua;
+  width: 20%;
+  height: auto;
+}
+
+.biblio img {
+  width: 70%;
+  height: auto;
+  padding-left: 26%;
+  padding-bottom: 20px;
+}
+
+footer {
+  background-color: gray;
+  width: 100%;
+}
+
+/*# sourceMappingURL=bibliografia.css.map */

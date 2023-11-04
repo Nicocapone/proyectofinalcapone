@@ -1,0 +1,20 @@
+h1 {
+  background-color: aqua;
+  width: 20%;
+  height: auto;
+}
+
+.secundaria img {
+  width: 70%;
+  height: auto;
+  padding-left: 26%;
+}
+.secundaria img p {
+  padding-top: 15px;
+}
+
+footer {
+  background-color: grey;
+}
+
+/*# sourceMappingURL=secundaria.css.map */

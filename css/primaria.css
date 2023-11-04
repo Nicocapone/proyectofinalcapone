@@ -1,0 +1,18 @@
+h1 {
+  background-color: aqua;
+  width: 20%;
+  height: auto;
+}
+
+.primaria img {
+  width: 70%;
+  height: auto;
+  padding-left: 26%;
+  padding-bottom: 20px;
+}
+
+footer {
+  background-color: grey;
+}
+
+/*# sourceMappingURL=primaria.css.map */
