@@ -21,6 +21,8 @@ body {
     border-radius: 5px;
     display: flex;
     justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 10px;
   }
   
   .informacion-contacto,
@@ -62,6 +64,40 @@ body {
   }
 
   footer {
+    font-style: italic;
     background-color: gray;
-    width: 100%;
+    border: 2px solid black;
+    margin-top: 5px;
+    display: flex;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 0.5cm;
+
+}
+
+footer nav {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+
+    ul {
+        list-style: none;
+        
+    }
+}
+
+.sobre {
+    h2 {
+        margin-left: 55%;
+    }
+
+    p {
+        margin-left: 55%;
+    }
+}
+
+.copy {
+    margin-left: 15%;
+
+    h2 {
+        margin-left: 15%;
+    }
 }

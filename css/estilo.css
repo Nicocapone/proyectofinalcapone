@@ -1,0 +1,668 @@
+h1 {
+  background-color: aqua;
+  width: 20%;
+  height: auto;
+}
+
+.biblio img {
+  width: 70%;
+  height: auto;
+  padding-left: 26%;
+  padding-bottom: 20px;
+}
+.biblio h3 {
+  padding-left: 4px;
+}
+.biblio p {
+  text-align: center;
+  padding-left: 0;
+}
+
+footer {
+  font-style: italic;
+  background-color: gray;
+  border: 2px solid black;
+  margin-top: 5px;
+  display: flex;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 0.5cm;
+}
+
+footer nav {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-style: italic;
+}
+footer nav ul {
+  list-style: none;
+}
+
+.sobre h2 {
+  margin-left: 55%;
+}
+.sobre p {
+  margin-left: 55%;
+}
+
+.copy {
+  margin-left: 15%;
+}
+.copy h2 {
+  margin-left: 15%;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f3f3f3;
+}
+
+header {
+  background-color: #007BFF;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.contenido {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.informacion-contacto,
+.formulario-contacto {
+  flex-basis: 48%;
+}
+
+.formulario-contacto form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-top: 10px;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+footer {
+  font-style: italic;
+  background-color: gray;
+  border: 2px solid black;
+  margin-top: 5px;
+  display: flex;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 0.5cm;
+}
+
+footer nav {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-style: italic;
+}
+footer nav ul {
+  list-style: none;
+}
+
+.sobre h2 {
+  margin-left: 55%;
+}
+.sobre p {
+  margin-left: 55%;
+}
+
+.copy {
+  margin-left: 15%;
+}
+.copy h2 {
+  margin-left: 15%;
+}
+
+h1 {
+  background-color: aqua;
+  width: 30%;
+  height: auto;
+  text-align: center;
+}
+
+.jardin img {
+  padding-left: 25%;
+  padding-bottom: 20px;
+}
+
+.inicialjardin p {
+  margin-left: 4px;
+  text-align: center;
+}
+
+.inicialjardin h3 {
+  margin-left: 4px;
+}
+
+footer {
+  font-style: italic;
+  background-color: gray;
+  border: 2px solid black;
+  margin-top: 5px;
+  display: flex;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 0.5cm;
+}
+
+footer nav {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-style: italic;
+}
+footer nav ul {
+  list-style: none;
+}
+
+.sobre h2 {
+  margin-left: 55%;
+}
+.sobre p {
+  margin-left: 55%;
+}
+
+.copy {
+  margin-left: 15%;
+}
+.copy h2 {
+  margin-left: 15%;
+}
+
+h1 {
+  background-color: aqua;
+  width: 20%;
+  height: auto;
+}
+
+.plantilla img {
+  width: 70%;
+  height: auto;
+  padding-left: 26%;
+  padding-bottom: 20px;
+}
+
+.planti h3 {
+  margin-left: 5px;
+}
+
+.planti p {
+  text-align: center;
+}
+
+footer {
+  font-style: italic;
+  background-color: gray;
+  border: 2px solid black;
+  margin-top: 5px;
+  display: flex;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 0.5cm;
+}
+
+footer nav {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-style: italic;
+}
+footer nav ul {
+  list-style: none;
+}
+
+.sobre h2 {
+  margin-left: 55%;
+}
+.sobre p {
+  margin-left: 55%;
+}
+
+.copy {
+  margin-left: 15%;
+}
+.copy h2 {
+  margin-left: 15%;
+}
+
+h1 {
+  background-color: aqua;
+  width: 20%;
+  height: auto;
+}
+
+.primaria img {
+  width: 70%;
+  height: auto;
+  padding-left: 26%;
+  padding-bottom: 20px;
+}
+
+.primaria h3, p {
+  margin-left: 4px;
+}
+
+footer {
+  font-style: italic;
+  background-color: gray;
+  border: 2px solid black;
+  margin-top: 5px;
+  display: flex;
+}
+
+footer nav {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-style: italic;
+}
+
+nav ul {
+  list-style: none;
+  font-size: 0.5cm;
+}
+
+.sobre h2 {
+  margin-left: 55%;
+}
+
+.sobre p {
+  margin-left: 55%;
+}
+
+.copy {
+  margin-left: 15%;
+}
+
+.copy h2 {
+  margin-left: 15%;
+}
+
+.registro-formulario {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f3f3f3;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding-top: 40px;
+  padding-bottom: 60px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.registro-formulario label {
+  display: block;
+  margin-top: 10px;
+}
+.registro-formulario label input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+.registro-formulario label input button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.registro-formulario label input button button:hover {
+  background-color: #0056b3;
+}
+
+footer {
+  font-style: italic;
+  background-color: gray;
+  border: 2px solid black;
+  margin-top: 5px;
+  display: flex;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 0.5cm;
+}
+
+footer nav {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-style: italic;
+}
+footer nav ul {
+  list-style: none;
+}
+
+.sobre h2 {
+  margin-left: 55%;
+}
+.sobre p {
+  margin-left: 55%;
+}
+
+.copy {
+  margin-left: 15%;
+}
+.copy h2 {
+  margin-left: 15%;
+}
+
+h1 {
+  background-color: aqua;
+  width: 20%;
+  height: auto;
+}
+
+.secundaria img {
+  width: 75%;
+  height: 80%;
+  padding-left: 26%;
+  padding-bottom: 15px;
+  padding-top: 5px;
+}
+
+.secun {
+  margin-left: 4px;
+}
+
+footer {
+  font-style: italic;
+  background-color: gray;
+  border: 2px solid black;
+  margin-top: 5px;
+  display: flex;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 0.5cm;
+}
+
+footer nav {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-style: italic;
+}
+footer nav ul {
+  list-style: none;
+}
+
+.sobre h2 {
+  margin-left: 55%;
+}
+.sobre p {
+  margin-left: 55%;
+}
+
+.copy {
+  margin-left: 15%;
+}
+.copy h2 {
+  margin-left: 15%;
+}
+
+h1 {
+  background-color: aqua;
+  width: 40%;
+  height: auto;
+}
+
+.soporte img {
+  width: 70%;
+  height: auto;
+  padding-left: 25%;
+  padding-bottom: 20px;
+}
+
+.soporte h3 {
+  margin-left: 4px;
+}
+
+.soporte p {
+  margin-left: 6px;
+  text-align: center;
+}
+
+footer {
+  font-style: italic;
+  background-color: gray;
+  border: 2px solid black;
+  margin-top: 5px;
+  display: flex;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 0.5cm;
+}
+
+footer nav {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-style: italic;
+}
+footer nav ul {
+  list-style: none;
+}
+
+.sobre h2 {
+  margin-left: 55%;
+}
+.sobre p {
+  margin-left: 55%;
+}
+
+.copy {
+  margin-left: 15%;
+}
+.copy h2 {
+  margin-left: 15%;
+}
+
+* {
+  box-sizing: border-box;
+  font-style: italic;
+}
+
+body {
+  background-color: #058dfc;
+  margin: 0;
+  padding: 0;
+}
+
+.cabecera {
+  width: 100%;
+  height: 150px;
+  background-image: url(../imagenes/fondoheader.jpg);
+  opacity: 0.9;
+  display: cover;
+  background-repeat: round;
+}
+.cabecera h1 {
+  text-align: center;
+  color: #fcf805;
+  -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: rgb(255, 252, 252);
+}
+.cabecera h2 {
+  text-align: center;
+  color: #fcf805;
+  -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: rgb(3, 3, 3);
+  font-size: 30px;
+}
+
+.principio h1 {
+  margin-left: 30%;
+  margin-top: 10px;
+}
+
+.padre {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  padding: 5px;
+  text-align: center;
+  flex-wrap: wrap;
+  padding-bottom: 5px;
+}
+.padre img {
+  width: 100%;
+  height: 60%;
+  transition: 0.3s ease-in-out;
+}
+.padre img:hover {
+  transform: scale(0.9);
+}
+.padre .columnas {
+  flex: 25%;
+  padding: 5px;
+  margin: 5px;
+  border: 2px solid black;
+  margin-bottom: 10px;
+  padding-top: 5px;
+}
+.padre .columnas h2 {
+  padding-top: 10px;
+}
+.padre .columnas p {
+  font-size: 0.4, 5cm;
+}
+
+.videos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #f0f0f0;
+  padding: 20px;
+}
+.videos .efe {
+  border: 2px solid black;
+  flex-basis: 100%;
+  background-color: #fcf805;
+  height: 50%;
+}
+.videos .efe p {
+  font-size: 0.6cm;
+}
+.videos .video-item {
+  flex-basis: calc(33.33% - 20px);
+  background-color: #050505;
+  margin: 10px;
+  padding: 20px;
+  text-align: center;
+  width: 23%;
+  height: 20%;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-left: 1%;
+}
+
+footer {
+  font-style: italic;
+  background-color: gray;
+  border: 2px solid black;
+  margin-top: 2px;
+  display: flex;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 0.5cm;
+}
+
+footer nav {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-style: italic;
+}
+footer nav ul {
+  list-style: none;
+}
+
+.sobre h2 {
+  margin-left: 55%;
+}
+.sobre p {
+  margin-left: 55%;
+}
+
+.copy {
+  margin-left: 15%;
+}
+.copy h2 {
+  margin-left: 15%;
+}
+
+/* responsive para celulares */
+@media screen and (max-width: 767px) {
+  .cabecera {
+    width: 100%;
+    height: 80px;
+  }
+  .cabecera h1 {
+    text-align: center;
+  }
+  .cabecera h2 {
+    text-align: center;
+  }
+  .columnas {
+    flex: 100%;
+  }
+  .publicidad {
+    width: 60%;
+    height: 80px;
+  }
+  .videos {
+    padding-top: 450px;
+    flex-direction: column;
+  }
+}
+/* Responsive para tablets */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .cabecera {
+    width: 100%;
+    height: 90px;
+  }
+  .cabecera .img {
+    width: 100%;
+    height: 50%;
+  }
+  .cabecera .img .columnas p {
+    font-size: 0.3cm;
+  }
+  .cabecera .img .columnas p .publicidad {
+    max-width: 80%;
+    height: auto;
+    margin-right: 20%;
+  }
+}
+/* Responsive para monitor pc */
+@media screen and (min-width: 1024px) {
+  .cabecera {
+    width: 100%;
+    height: 100px;
+  }
+  .cabecera .publicidad {
+    max-width: 60%;
+    height: auto;
+  }
+}
+
+/*# sourceMappingURL=estilo.css.map */

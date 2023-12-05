@@ -1,0 +1,54 @@
+h1 {
+    background-color: aqua;
+    width: 20%;
+    height: auto;
+}
+
+.primaria {
+    img {
+        width: 70%;
+        height: auto;
+        padding-left: 26%;
+        padding-bottom: 20px;
+    }
+}
+
+.primaria h3,p {
+    margin-left: 4px;
+}
+
+footer {
+    font-style: italic;
+    background-color: gray;
+    border: 2px solid black;
+    margin-top: 5px;
+    display: flex;
+
+}
+
+footer nav {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+}
+
+nav ul {
+    list-style: none;
+    font-size: 0.5cm;
+}
+
+.sobre h2 {
+    margin-left: 55%;
+    
+}
+
+.sobre p {
+    margin-left: 55%;
+}
+
+.copy {
+    margin-left: 15%;
+}
+
+.copy h2 { 
+    margin-left: 15%;
+}
