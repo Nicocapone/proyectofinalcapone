@@ -74,30 +74,81 @@ body {
 
 }
 
-footer nav {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-style: italic;
+footer {
+  font-style: italic;
+  background-color: gray;
+  border: 2px solid black;
+  margin-top: 2px;
+  display: flex;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 0.5cm;
 
-    ul {
-        list-style: none;
-        
-    }
+  nav {
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      font-style: italic;
+
+      ul {
+          list-style: none;
+      }
+  }
+  a {
+      color: #f50707; 
+      text-decoration: none; 
+      font-weight: bold; 
+      transition: color 0.3s ease-in-out;
+  }
 }
 
-.sobre {
-    h2 {
-        margin-left: 55%;
-    }
-
-    p {
-        margin-left: 55%;
-    }
+footer a:hover {
+  color: #ffee00; 
 }
 
-.copy {
-    margin-left: 15%;
 
-    h2 {
-        margin-left: 15%;
-    }
+@media screen and (max-width: 767px) {
+  header {
+      padding: 10px;
+  }
+
+  .contenido {
+      flex-direction: column;
+      padding: 30px;
+
+  }
+
+  .informacion-contacto,
+  .formulario-contacto {
+      flex-basis: 100%;
+      margin-bottom: 10px;
+      
+  }
+
+  .formulario-contacto form {
+      width: 100%;
+  }
+
+  label,
+  input,
+  textarea {
+      width: 100%;
+      margin: 5px 0;
+  }
+
+  button {
+      width: 100%;
+      margin-top: 10px;
+  }
+
+  footer nav {
+      font-size: 0.4cm;
+
+      ul {
+          padding-left: 0;
+      }
+  }
+
+  .sobre h2,
+  .sobre p,
+  .copy h2 {
+      margin-left: 0;
+  }
 }

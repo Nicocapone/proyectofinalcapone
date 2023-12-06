@@ -97,6 +97,7 @@ body {
     text-align: center;
     background-color: #f0f0f0;
     padding: 20px;
+    padding-top: 20px;
 
   .efe {
     border: 2px solid black;
@@ -111,15 +112,15 @@ body {
     
     .video-item {
         flex-basis: calc(33.33% - 20px);
-        background-color: #050505;
         margin: 10px;
         padding: 20px;
         text-align: center;
-        width: 23%;
-        height: 20%;
+        width: 100%;
+        height: 100%;
         object-fit: cover;
         border-radius: 8px;
         margin-left: 1%;
+        
         
         
     }
@@ -134,20 +135,31 @@ footer {
     border: 2px solid black;
     margin-top: 2px;
     display: flex;
+    flex-direction: row;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 0.5cm;
 
-}
+    nav {
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-style: italic;
 
-footer nav {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-style: italic;
-
-    ul {
-        list-style: none;
-        
+        ul {
+            list-style: none;
+        }
+    }
+    a {
+        color: #f50707; 
+        text-decoration: none; 
+        font-weight: bold; 
+        transition: color 0.3s ease-in-out;
     }
 }
+
+footer a:hover {
+    color: #ffee00; 
+}
+
+
 
 .sobre {
     h2 {
@@ -169,77 +181,56 @@ footer nav {
 
 
 
-/* responsive para celulares */
-
-@media screen and (max-width: 767px) {
-    .cabecera {
-        width: 100%;
-        height: 80px;
-        
-    }
-    .cabecera h1 {
-        
-        text-align: center;
-        
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .principio h1 {
+        margin-left: 10%; /* Ajusta el margen izquierdo según sea necesario */
     }
 
-    .cabecera h2 {
-        text-align: center;
-    }
+    .padre {
+        img {
+            width: 100%;
+            height: 40%; /* Ajusta la altura de la imagen según sea necesario */
+        }
 
-    .columnas {
-        flex: 100%;
-        
-    }
-    .publicidad {
-        width: 60%;
-        height: 80px;
-
+        .columnas {
+            flex: 100%; /* Cambia el ancho a 100% en pantallas pequeñas */
+            
+            
+        }
     }
 
     .videos {
-        padding-top: 450px;
+        padding: 10px; /* Ajusta el relleno según sea necesario */
+        padding-top: 850px;
+        display: flex;
         flex-direction: column;
-    }
-  
-  }
-
-  /* Responsive para tablets */
-  
-  @media screen and (min-width: 768px) and (max-width: 1023px) {
-
-    .cabecera { 
-        width: 100%;
-        height: 90px;
+        flex-wrap: wrap;
+        justify-content: start;
         
-        .img {
-             width: 100%;
-            height: 50%;
+    }
 
-        .columnas p {
-            font-size: 0.3cm;
+    }
 
-        .publicidad {
-            max-width: 80%;
-            height: auto;
-            margin-right: 20%;
-            
+    .video-item {
+        /*flex-basis: calc(33.33% - 20px);*/
+        width: calc(50% - 10px);
+        margin-right: 10px;
+        
+    }
+
+    footer {
+        flex-direction: column; /* Cambia la dirección del flex container en pantallas pequeñas */
+        align-items: center; /* Centra los elementos en pantallas pequeñas */
+    }
+
+    .sobre,
+    .copy {
+        h2,
+        p {
+            margin-left: 10%; /* Ajusta el margen izquierdo según sea necesario */
         }
-        } 
-        }
     }
-  } 
-  
-  /* Responsive para monitor pc */
 
-  @media screen and (min-width: 1024px) {
-    .cabecera {
-        width: 100%;
-        height: 100px;
 
-    .publicidad {
-        max-width: 60%;
-        height: auto;
-    }
-    }
-  }
+
+
